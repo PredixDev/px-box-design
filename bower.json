@@ -1,0 +1,24 @@
+{
+  "name": "pdx-box",
+  "version": "0.0.1",
+  "authors": [
+    "General Electric"
+  ],
+  "description": "Boxed off content styles for Predix Design Extension",
+  "main": "_objects.box.scss",
+  "keywords": [
+    "pdx",
+    "sass",
+    "boxes"
+  ],
+  "license": "Apache 2",
+  "homepage": "https://github.sw.ge.com/jrogerson/pdx-box.git",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
