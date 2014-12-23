@@ -1,1 +1,37 @@
 $inuit-box-padding              : $inuit-base-font-size;
+
+.layout__item .box {
+  margin-bottom: round($inuit-base-spacing-unit * .75);
+}
+
+.box {
+  height: 460px;
+  border: 1px solid rgb(149, 155, 160);
+  h2 {
+    text-transform: uppercase;
+  }
+  li {
+    color: $gray;
+    b {
+      margin-right: $inuit-box-padding;
+      font-weight: normal;
+      color: $true-black;
+    }
+  }
+}
+
+.box--highchart {
+  height: 240px;
+}
+
+.box--datagrid {
+  height: 400px;
+}
+
+.box--highstock {
+  height: 600px;
+}
+
+.box--reverse-out {
+  background: rgb(234, 237, 239);
+}
