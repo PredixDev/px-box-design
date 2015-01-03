@@ -1,22 +1,13 @@
-$inuit-box-padding              : $inuit-base-font-size;
-
-.layout__item .box {
-  margin-bottom: round($inuit-base-spacing-unit * .75);
-}
+$inuit-box-padding        : ($inuit-base-spacing-unit * .75);
+$inuit-enable-box--flush  : true;
 
 .box {
+  overflow: auto;
   height: 460px;
+  margin-bottom: $inuit-box-padding;
   border: 1px solid rgb(149, 155, 160);
   h2 {
     text-transform: uppercase;
-  }
-  li {
-    color: $gray;
-    b {
-      margin-right: $inuit-box-padding;
-      font-weight: normal;
-      color: $true-black;
-    }
   }
 }
 
@@ -34,4 +25,11 @@ $inuit-box-padding              : $inuit-base-font-size;
 
 .box--reverse-out {
   background: rgb(234, 237, 239);
+  li {
+    color: $gray;
+    b {
+      font-weight: normal;
+      color: $true-black;
+    }
+  }
 }
