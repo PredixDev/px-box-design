@@ -12,7 +12,7 @@
     "boxes"
   ],
   "license": "Apache 2",
-  "homepage": "https://github.sw.ge.com/jrogerson/pdx-box.git",
+  "homepage": "git@github.sw.ge.com:jrogerson/pdx-box.git",
   "private": true,
   "ignore": [
     "**/.*",
