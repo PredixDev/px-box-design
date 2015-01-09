@@ -1,4 +1,4 @@
-pdx-box
+px-box
 =======
 
-Boxed off content styles for Predix Design Extension
+Boxed off content styles for Predix Experience

@@ -1,10 +1,10 @@
 {
-  "name": "pdx-box",
+  "name": "px-box",
   "version": "0.0.1",
   "authors": [
     "General Electric"
   ],
-  "description": "Boxed off content styles for Predix Design Extension",
+  "description": "Boxed off content styles for Predix Experience",
   "main": "_objects.box.scss",
   "keywords": [
     "pdx",
@@ -12,7 +12,7 @@
     "boxes"
   ],
   "license": "Apache 2",
-  "homepage": "git@github.sw.ge.com:jrogerson/pdx-box.git",
+  "homepage": "git://github.sw.ge.com/jrogerson/px-box.git",
   "private": true,
   "ignore": [
     "**/.*",
