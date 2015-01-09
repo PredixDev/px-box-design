@@ -3,24 +3,31 @@ $inuit-enable-box--flush  : true;
 
 .box {
   overflow: auto;
-  height: 460px;
+  height: auto;
   margin-bottom: $inuit-box-padding;
   border: 1px solid rgb(149, 155, 160);
+  @include media-query(lap-and-up) {
+    height: calculateRem(460px);
+  }
   h2 {
     text-transform: uppercase;
   }
 }
 
-.box--highchart {
-  height: 240px;
+@include media-query(desk) {  
+  .box--med {
+    height: calculateRem(400px);
+  }
+  
+  .box--lg {
+    height: calculateRem(600px);
+  }
 }
 
-.box--datagrid {
-  height: 400px;
-}
-
-.box--highstock {
-  height: 600px;
+@include media-query(desk-wide) {
+  .box--sm {
+    height: calculateRem(240px);
+  }
 }
 
 .box--reverse-out {
