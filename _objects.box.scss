@@ -2,38 +2,38 @@
   overflow: auto;
   height: auto;
   margin-bottom: $inuit-box-padding;
-  border: 1px solid rgb(149, 155, 160);
+  background-color: $white;
   @include media-query(lap-and-up) {
-    height: calculateRem(460px);
-  }
-  h2 {
-    text-transform: uppercase;
+    height: calculateRem(420px);
   }
 }
 
-@include media-query(desk) {  
-  .box--med {
-    height: calculateRem(400px);
-  }
-  
+@include media-query(lap-and-up) {  
   .box--lg {
     height: calculateRem(600px);
   }
 }
 
-@include media-query(desk-wide) {
-  .box--sm {
-    height: calculateRem(240px);
+.box--feature {
+  background: rgb(41, 61, 89);
+  &, h3 {
+    color: $white;
   }
 }
 
-.box--reverse-out {
-  background: rgb(234, 237, 239);
-  li {
-    color: $gray;
-    b {
-      font-weight: normal;
-      color: $true-black;
-    }
-  }
+.box-has-box {
+  overflow: visible;
+}
+
+.box-in-box {
+  overflow: auto;
+  height: 50%;
+}
+
+.box--gradient {
+  box-shadow: inset 0 3rem 3rem -3rem rgba($true-black, .2);
+}
+
+.box__footer {
+  border-top: 1px solid $gray-lighter;
 }
