@@ -20,5 +20,10 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "inuit-box": "~0.4.4",
+    "px-defaults": "git://github.sw.ge.com/jrogerson/px-defaults.git#master",
+    "px-functions": "git://github.sw.ge.com/jrogerson/px-functions.git#master"
+  }
 }
