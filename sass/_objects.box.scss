@@ -1,7 +1,7 @@
 @import "lib/inuit-box/objects.box";
 @import "lib/inuit-clearfix/trumps.clearfix";
-@import "lib/px-defaults/settings.defaults";
-@import "lib/px-functions/tools.functions";
+@import "lib/px-defaults/sass/settings.defaults";
+@import "lib/px-functions/sass/tools.functions";
 
 .box {
   overflow: auto;
