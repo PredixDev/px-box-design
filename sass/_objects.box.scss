@@ -6,6 +6,8 @@
 @import "lib/inuit-box/objects.box";
 @import "lib/inuit-clearfix/trumps.clearfix";
 
+$inuit-enable-box--flush                : true;
+
 @if import-once('objects.box') {
 
   .box {
