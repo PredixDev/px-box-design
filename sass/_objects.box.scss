@@ -1,3 +1,5 @@
+$inuit-enable-box--flush    : true;
+
 @import "lib/px-defaults/sass/settings.defaults";
 @import "lib/px-colors/sass/settings.colors";
 @import "lib/inuit-responsive-settings/settings.responsive";
@@ -5,8 +7,6 @@
 @import "lib/px-functions/sass/tools.functions";
 @import "lib/inuit-box/objects.box";
 @import "lib/inuit-clearfix/trumps.clearfix";
-
-$inuit-enable-box--flush                : true;
 
 @if import-once('objects.box') {
 
