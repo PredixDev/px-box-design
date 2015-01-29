@@ -1,44 +1,51 @@
+@import "lib/inuit-defaults/settings.defaults";
+@import "lib/inuit-responsive-settings/settings.responsive";
+@import "lib/inuit-functions/tools.functions";
+@import "lib/inuit-responsive-tools/tools.responsive";
+@import "lib/px-functions/sass/tools.functions";
 @import "lib/inuit-box/objects.box";
 @import "lib/inuit-clearfix/trumps.clearfix";
-@import "lib/px-defaults/sass/settings.defaults";
-@import "lib/px-functions/sass/tools.functions";
 
-.box {
-  overflow: auto;
-  height: auto;
-  margin-bottom: $inuit-box-padding;
-  background-color: $white;
-  @include media-query(lap-and-up) {
-    height: calculateRem(420px);
+@if import-once('objects.box') {
+
+  .box {
+    overflow: auto;
+    height: auto;
+    margin-bottom: $inuit-box-padding;
+    background-color: $white;
+    @include media-query(lap-and-up) {
+      height: calculateRem(420px);
+    }
   }
-}
-
-@include media-query(lap-and-up) {  
-  .box--lg {
-    height: calculateRem(600px);
+  
+  @include media-query(lap-and-up) {  
+    .box--lg {
+      height: calculateRem(600px);
+    }
   }
-}
-
-.box--feature {
-  background: rgb(41, 61, 89);
-  &, h3 {
-    color: $white;
+  
+  .box--feature {
+    background: rgb(41, 61, 89);
+    &, h3 {
+      color: $white;
+    }
   }
-}
+  
+  .box-has-box {
+    overflow: visible;
+  }
+  
+  .box-in-box {
+    overflow: auto;
+    height: 50%;
+  }
+  
+  .box--gradient {
+    box-shadow: inset 0 3rem 3rem -3rem rgba($true-black, .2);
+  }
+  
+  .box__footer {
+    border-top: 1px solid $gray-lighter;
+  }
 
-.box-has-box {
-  overflow: visible;
-}
-
-.box-in-box {
-  overflow: auto;
-  height: 50%;
-}
-
-.box--gradient {
-  box-shadow: inset 0 3rem 3rem -3rem rgba($true-black, .2);
-}
-
-.box__footer {
-  border-top: 1px solid $gray-lighter;
 }
