@@ -7,9 +7,9 @@
   "description": "Boxed off content styles for Predix Experience",
   "main": "_objects.box.scss",
   "keywords": [
-    "pdx",
+    "px",
     "sass",
-    "boxes"
+    "box"
   ],
   "license": "Apache 2",
   "homepage": "git://github.sw.ge.com/jrogerson/px-box.git",
@@ -23,9 +23,9 @@
   ],
   "dependencies": {
     "inuit-box": "~0.4.4",
+    "inuit-defaults": "~0.2.1",
     "inuit-responsive-tools": "~0.1.3",
     "px-colors": "git://github.sw.ge.com/jrogerson/px-colors.git#master",
-    "px-defaults": "git://github.sw.ge.com/jrogerson/px-defaults.git#master",
     "px-functions": "git://github.sw.ge.com/jrogerson/px-functions.git#master"
   }
 }
