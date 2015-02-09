@@ -1,5 +1,5 @@
 {
-  "name": "px-box",
+  "name": "px-box-design",
   "version": "0.0.1",
   "authors": [
     "General Electric"
@@ -12,7 +12,7 @@
     "box"
   ],
   "license": "Apache 2",
-  "homepage": "git://github.sw.ge.com/jrogerson/px-box.git",
+  "homepage": "git://github.sw.ge.com/pxc/px-box-design.git",
   "private": true,
   "ignore": [
     "**/.*",
@@ -25,7 +25,7 @@
     "inuit-box": "~0.4.4",
     "inuit-defaults": "~0.2.1",
     "inuit-responsive-tools": "~0.1.3",
-    "px-colors": "git://github.sw.ge.com/jrogerson/px-colors.git#master",
-    "px-functions": "git://github.sw.ge.com/jrogerson/px-functions.git#master"
+    "px-colors": "git://github.sw.ge.com/pxc/px-colors-design.git#master",
+    "px-functions": "git://github.sw.ge.com/pxc/px-functions-design.git#master"
   }
 }
