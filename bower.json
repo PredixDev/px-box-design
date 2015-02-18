@@ -22,9 +22,9 @@
     "tests"
   ],
   "dependencies": {
-    "inuit-box": "~0.4.4",
     "inuit-defaults": "~0.2.1",
     "inuit-responsive-tools": "~0.1.3",
+    "px-clearfix-design": "git://github.sw.ge.com/pxc/px-clearfix-design.git#master",
     "px-colors-design": "git://github.sw.ge.com/pxc/px-colors-design.git#master",
     "px-functions-design": "git://github.sw.ge.com/pxc/px-functions-design.git#master"
   }
