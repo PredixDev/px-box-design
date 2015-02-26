@@ -2,7 +2,8 @@
   "name": "px-box-design",
   "version": "0.0.1",
   "authors": [
-    "General Electric"
+    "General Electric",
+    "Harry Roberts <harry@csswizardry.com>"
   ],
   "description": "Boxed off content styles for Predix Experience",
   "main": "_objects.box.scss",
