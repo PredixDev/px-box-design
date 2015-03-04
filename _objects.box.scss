@@ -6,9 +6,9 @@
 * The box object simply boxes off content.
 */
 
-@import "inuit-defaults/settings.defaults";
-@import "px-functions-design/sass/tools.functions";
-@import "px-clearfix-design/sass/trumps.clearfix";
+@import "../inuit-defaults/settings.defaults";
+@import "../px-functions-design/tools.functions";
+@import "../px-clearfix-design/trumps.clearfix";
 
 // Predefine the variables below in order to alter and enable specific features.
 $inuit-box-namespace        : $inuit-namespace !default;
