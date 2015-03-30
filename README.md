@@ -7,14 +7,14 @@ The Box module simply boxes off content. This module is a fork of the [inuitcss 
 Px's Box module depends on three other Px and inuitcss modules:
 
 * [settings.defaults](https://github.com/inuitcss/settings.defaults)
-* [px-functions-design](https://github.sw.ge.com/pxc/px-functions-design)
-* [px-clearfix-design](https://github.sw.ge.com/pxc/px-clearfix-design)
+* [px-functions-design](https://github.sw.ge.com/PXd/px-functions-design)
+* [px-clearfix-design](https://github.sw.ge.com/PXd/px-clearfix-design)
 
 ## Installation
 
 Install this module and its dependencies using bower:
 
-    bower install --save https://github.sw.ge.com/pxc/px-box-design.git
+    bower install --save https://github.sw.ge.com/PXd/px-box-design.git
 
 Once installed, `@import` into your project's Sass file in its Objects layer:
 
