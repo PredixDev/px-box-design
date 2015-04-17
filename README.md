@@ -6,7 +6,7 @@ The Box module simply boxes off content. This module is a fork of the [inuitcss 
 
 Px's Box module depends on three other Px and inuitcss modules:
 
-* [settings.defaults](https://github.com/inuitcss/settings.defaults)
+* [px-defaults-design](https://github.sw.ge.com/PXd/px-defaults-design)
 * [px-functions-design](https://github.sw.ge.com/PXd/px-functions-design)
 * [px-clearfix-design](https://github.sw.ge.com/PXd/px-clearfix-design)
 
