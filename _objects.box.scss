@@ -13,12 +13,6 @@
 // Predefine the variables below in order to alter and enable specific features.
 $inuit-box-namespace        : $inuit-namespace !default;
 
-$inuit-box-padding          : $inuit-base-spacing-unit !default;
-$inuit-box-padding--tiny    : quarter($inuit-box-padding) !default;
-$inuit-box-padding--small   : halve($inuit-box-padding) !default;
-$inuit-box-padding--large   : double($inuit-box-padding) !default;
-$inuit-box-padding--huge    : quadruple($inuit-box-padding) !default;
-
 $inuit-enable-box--flush    : false !default;
 $inuit-enable-box--tiny     : false !default;
 $inuit-enable-box--small    : false !default;
@@ -34,7 +28,7 @@ $inuit-enable-box--huge     : false !default;
   %#{$inuit-box-namespace}box {
     @extend %clearfix;
     display: block; /* [1] */
-    padding: $inuit-box-padding;
+    padding: $inuit-base-spacing-unit;
   
     > :last-child {
         margin-bottom: 0;
@@ -67,7 +61,7 @@ $inuit-enable-box--huge     : false !default;
   
     .#{$inuit-box-namespace}box--tiny,
     %#{$inuit-box-namespace}box--tiny {
-        padding: $inuit-box-padding--tiny;
+        padding: $inuit-base-spacing-unit--tiny;
     }
   
   }
@@ -80,7 +74,7 @@ $inuit-enable-box--huge     : false !default;
   
     .#{$inuit-box-namespace}box--small,
     %#{$inuit-box-namespace}box--small {
-        padding: $inuit-box-padding--small;
+        padding: $inuit-base-spacing-unit--small;
     }
   
   }
@@ -93,7 +87,7 @@ $inuit-enable-box--huge     : false !default;
   
     .#{$inuit-box-namespace}box--large,
     %#{$inuit-box-namespace}box--large {
-        padding: $inuit-box-padding--large;
+        padding: $inuit-base-spacing-unit--large;
     }
   
   }
@@ -106,7 +100,7 @@ $inuit-enable-box--huge     : false !default;
   
     .#{$inuit-box-namespace}box--huge,
     %#{$inuit-box-namespace}box--huge {
-        padding: $inuit-box-padding--huge;
+        padding: $inuit-base-spacing-unit--huge;
     }
   
   }
