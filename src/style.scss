@@ -1,0 +1,39 @@
+$imported-once-files            : ();
+
+// Settings
+@import "../px-colors-design/settings.colors";
+
+// Generic
+@import "../px-normalize-design/generic.normalize";
+@import "../px-box-sizing-design/generic.box-sizing";
+@import "../px-helpers-design/generic.helpers";
+
+// Base
+@import "../px-viewport-design/base.viewport";
+@import "../px-typography-design/base.typography";
+@import "../px-code-design/base.code";
+
+// Box
+$inuit-enable-box--flush        : true;
+$inuit-enable-box--tiny         : true;
+$inuit-enable-box--small        : true;
+$inuit-enable-box--large        : true;
+$inuit-enable-box--huge         : true;
+
+@import "../objects.box";
+
+.box {
+  text-align: justify;
+  background: $gray6;
+  color: $white;
+  p {
+    background: $gray8;
+  }
+}
+
+// Trumps
+$inuit-enable-margins--none     : true;
+$inuit-enable-margins--large    : true;
+$inuit-enable-margins--huge     : true;
+
+@import "../px-spacing-responsive-design/trumps.spacing-responsive";
