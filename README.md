@@ -8,7 +8,7 @@ You can review box styles and recommended markup here: https://github.build.ge.c
 
 ## Sass Docs
 
-You can review Sass Documentation here: https://github.build.ge.com/pages/PXd/px-box-design/sassdocs
+You can review Sass Documentation here: https://github.build.ge.com/pages/PXd/px-box-design/sassdoc
 
 ## Dependencies
 
