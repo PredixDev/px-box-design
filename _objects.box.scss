@@ -1,22 +1,29 @@
-/*------------------------------------*\
-    #PX-BOX-DESIGN
-\*------------------------------------*/
-
-/**
-* The box object simply boxes off content.
-*/
+////
+/// PX-BOX-DESIGN
+/// The box object simply boxes off content
+/// @group px-box-design
+////
 
 @import "../px-defaults-design/settings.defaults";
-@import "../px-functions-design/tools.functions";
 @import "../px-clearfix-design/trumps.clearfix";
 
-// Predefine the variables below in order to alter and enable specific features.
+
+/// @type String [default] - Prepend value for all generated classes
 $inuit-box-namespace        : $inuit-namespace !default;
 
+/// @type Boolean [default] - Produce CSS for boxes with no padding?
 $inuit-enable-box--flush    : false !default;
+
+/// @type Boolean [default] - Produce CSS for boxes with tiny padding?
 $inuit-enable-box--tiny     : false !default;
+
+/// @type Boolean [default] - Produce CSS for boxes with small padding?
 $inuit-enable-box--small    : false !default;
+
+/// @type Boolean [default] - Produce CSS for boxes with large padding?
 $inuit-enable-box--large    : false !default;
+
+/// @type Boolean [default] - Produce CSS for boxes with huge padding?
 $inuit-enable-box--huge     : false !default;
 
 @if import-once('objects.box') {
