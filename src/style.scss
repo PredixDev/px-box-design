@@ -6,11 +6,13 @@ $imported-once-files            : ();
 // Generic
 @import "../px-normalize-design/generic.normalize";
 @import "../px-box-sizing-design/generic.box-sizing";
-@import "../px-helpers-design/generic.helpers";
 
 // Base
 @import "../px-viewport-design/base.viewport";
 @import "../px-typography-design/base.typography";
+
+$inuit-enable-code--inline      : true;
+
 @import "../px-code-design/base.code";
 
 // Box
@@ -24,11 +26,7 @@ $inuit-enable-box--huge         : true;
 
 .box {
   text-align: justify;
-  background: $gray6;
-  color: $white;
-  p {
-    background: $gray8;
-  }
+  border: 1px solid $gray4;
 }
 
 // Trumps
