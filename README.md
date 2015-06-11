@@ -45,26 +45,18 @@ These flags are available and, if needed, should be set to `true` prior to impor
     $inuit-enable-box--large
     $inuit-enable-box--huge
 
-The following dimension (padding) variables can be customized:
+## Options
 
-    $inuit-box-padding
-    $inuit-box-padding--tiny
-    $inuit-box-padding--small
-    $inuit-box-padding--large
-    $inuit-box-padding--huge
-
-Basic usage of the Box object uses the required classes:
+Basic usage of the Box object uses the required class:
 
     <div class="box">
         Foo Bar Baz
     </div>
 
-## Options
-
 Other, optional classes can supplement the required base classes. These classes are available if the variable flags listed above are set to `true`:
 
 * `box--flush`: remove all padding from boxes.
-* `box--[tiny|small|large|huge]`: alter the padding on boxes.
+* `box--[tiny|small|large|huge]`: alter the padding size on boxes.
 
 For example:
 
