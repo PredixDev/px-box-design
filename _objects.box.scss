@@ -4,8 +4,8 @@
 /// @group px-box-design
 ////
 
-@import "../px-defaults-design/settings.defaults";
-@import "../px-clearfix-design/trumps.clearfix";
+@import "px-defaults-design/_settings.defaults.scss";
+@import "px-clearfix-design/_trumps.clearfix.scss";
 
 
 /// @type String [default] - Prepend value for all generated classes
@@ -26,90 +26,87 @@ $inuit-enable-box--large    : false !default;
 /// @type Boolean [default] - Produce CSS for boxes with huge padding?
 $inuit-enable-box--huge     : false !default;
 
-@if import-once('objects.box') {
-  
+
+/**
+* 1. So we can apply the `.box` class to naturally-inline elements.
+*/
+.#{$inuit-box-namespace}box,
+%#{$inuit-box-namespace}box {
+  @extend %clearfix;
+  display: block; /* [1] */
+  padding: $inuit-base-spacing-unit;
+
+  > :last-child {
+      margin-bottom: 0;
+  }
+
+}
+
+
+
+
+
+@if ($inuit-enable-box--flush == true) {
+
   /**
-  * 1. So we can apply the `.box` class to naturally-inline elements.
-  */
-  .#{$inuit-box-namespace}box,
-  %#{$inuit-box-namespace}box {
-    @extend %clearfix;
-    display: block; /* [1] */
-    padding: $inuit-base-spacing-unit;
-  
-    > :last-child {
-        margin-bottom: 0;
-    }
-  
+   * Flush (i.e. no padding) box.
+   */
+
+  .#{$inuit-box-namespace}box--flush,
+  %#{$inuit-box-namespace}box--flush {
+      padding: 0;
   }
-  
-  
-  
-  
-  
-  @if ($inuit-enable-box--flush == true) {
-  
-    /**
-     * Flush (i.e. no padding) box.
-     */
-  
-    .#{$inuit-box-namespace}box--flush,
-    %#{$inuit-box-namespace}box--flush {
-        padding: 0;
-    }
-  
+
+}
+
+@if ($inuit-enable-box--tiny == true) {
+
+  /**
+   * Tiny box.
+   */
+
+  .#{$inuit-box-namespace}box--tiny,
+  %#{$inuit-box-namespace}box--tiny {
+      padding: $inuit-base-spacing-unit--tiny;
   }
-  
-  @if ($inuit-enable-box--tiny == true) {
-  
-    /**
-     * Tiny box.
-     */
-  
-    .#{$inuit-box-namespace}box--tiny,
-    %#{$inuit-box-namespace}box--tiny {
-        padding: $inuit-base-spacing-unit--tiny;
-    }
-  
+
+}
+
+@if ($inuit-enable-box--small == true) {
+
+  /**
+   * Small box.
+   */
+
+  .#{$inuit-box-namespace}box--small,
+  %#{$inuit-box-namespace}box--small {
+      padding: $inuit-base-spacing-unit--small;
   }
-  
-  @if ($inuit-enable-box--small == true) {
-  
-    /**
-     * Small box.
-     */
-  
-    .#{$inuit-box-namespace}box--small,
-    %#{$inuit-box-namespace}box--small {
-        padding: $inuit-base-spacing-unit--small;
-    }
-  
+
+}
+
+@if ($inuit-enable-box--large == true) {
+
+  /**
+   * Large box.
+   */
+
+  .#{$inuit-box-namespace}box--large,
+  %#{$inuit-box-namespace}box--large {
+      padding: $inuit-base-spacing-unit--large;
   }
-  
-  @if ($inuit-enable-box--large == true) {
-  
-    /**
-     * Large box.
-     */
-  
-    .#{$inuit-box-namespace}box--large,
-    %#{$inuit-box-namespace}box--large {
-        padding: $inuit-base-spacing-unit--large;
-    }
-  
+
+}
+
+@if ($inuit-enable-box--huge == true) {
+
+  /**
+   * Huge box.
+   */
+
+  .#{$inuit-box-namespace}box--huge,
+  %#{$inuit-box-namespace}box--huge {
+      padding: $inuit-base-spacing-unit--huge;
   }
-  
-  @if ($inuit-enable-box--huge == true) {
-  
-    /**
-     * Huge box.
-     */
-  
-    .#{$inuit-box-namespace}box--huge,
-    %#{$inuit-box-namespace}box--huge {
-        padding: $inuit-base-spacing-unit--huge;
-    }
-  
-  }
-  
+
 }
