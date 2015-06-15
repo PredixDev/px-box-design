@@ -1,6 +1,6 @@
 {
   "name": "px-box-design",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Boxed off content styles for Predix Experience",
   "private": true,
   "scripts": {
@@ -24,7 +24,6 @@
     "grunt-contrib-copy": "^0.8.0",
     "grunt-contrib-htmlmin": "^0.4.0",
     "grunt-contrib-watch": "^0.6.1",
-    "grunt-html-build": "^0.5.0",
     "grunt-sass": "^1.0.0",
     "grunt-sassdoc": "^2.0.1"
   }
