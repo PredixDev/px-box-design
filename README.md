@@ -12,9 +12,9 @@ You can review Sass Documentation here: https://github.build.ge.com/pages/PXd/px
 
 ## Dependencies
 
-Px's Box module depends on one other Px and one other inuitcss modules:
+Px's Box module depends on one other Px and one other inuitcss module:
 
-* [inuit-clearfix](https://github.com/inuitcss/trumps.clearfix)
+* [trumps.clearfix](https://github.com/inuitcss/trumps.clearfix)
 * [px-defaults-design](https://github.build.ge.com/PXd/px-defaults-design)
 
 ## Installation
