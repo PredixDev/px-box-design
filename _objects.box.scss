@@ -5,8 +5,7 @@
 ////
 
 @import "px-defaults-design/_settings.defaults.scss";
-@import "px-clearfix-design/_trumps.clearfix.scss";
-
+@import "inuit-clearfix/_trumps.clearfix.scss";
 
 /// @type String [default] - Prepend value for all generated classes
 $inuit-box-namespace        : $inuit-namespace !default;
