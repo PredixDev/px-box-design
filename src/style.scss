@@ -20,7 +20,7 @@ $inuit-enable-box--small        : true;
 $inuit-enable-box--large        : true;
 $inuit-enable-box--huge         : true;
 
-@import "../objects.box";
+@import "../_objects.box.scss";
 
 .box {
   text-align: justify;
