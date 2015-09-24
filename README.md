@@ -2,13 +2,10 @@
 
 The Box module simply boxes off content. This module is a fork of the [inuitcss Box module](https://github.com/inuitcss/objects.box).
 
-## Demo
 
-You can review box styles and recommended markup here: https://github.com/pages/PredixDev/px-box-design
 
-## Sass Docs
 
-You can review Sass Documentation here: https://github.com/pages/PredixDev/px-box-design/sassdoc
+
 
 ## Dependencies
 
