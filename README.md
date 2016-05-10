@@ -2,14 +2,9 @@
 
 The Box module simply boxes off content. This module is a fork of the [inuitcss Box module](https://github.com/inuitcss/objects.box).
 
-
-
-
-
-
 ## Dependencies
 
-Px's Box module depends on one other Px and one other inuitcss module:
+Predix UI's Box module depends on one other Px and one other inuitcss module:
 
 * [trumps.clearfix](https://github.com/inuitcss/trumps.clearfix)
 * [px-defaults-design](https://github.com/PredixDev/px-defaults-design)
@@ -18,7 +13,7 @@ Px's Box module depends on one other Px and one other inuitcss module:
 
 Install this module and its dependencies using bower:
 
-    bower install --save https://github.com/PredixDev/px-box-design.git
+    bower install --save px-box-design
 
 Once installed, `@import` into your project's Sass file in its Objects layer:
 
@@ -52,3 +47,6 @@ For example:
     <div class="box box--large">
         Foo Bar Baz
     </div>
+
+
+Please view the full API [here](http://predixdev.github.io/px-box-design/)
