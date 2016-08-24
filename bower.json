@@ -12,7 +12,6 @@
     "sass",
     "box"
   ],
-  "license": "Apache 2",
   "homepage": "https://github.com/PredixDev/px-box-design.git",
   "private": false,
   "ignore": [
