@@ -1,3 +1,7 @@
+v0.3.15
+=========================
+* update dependencies
+
 v0.3.14
 =========================
 * added new demo and auto-ghp
