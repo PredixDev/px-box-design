@@ -1,3 +1,7 @@
+v0.3.17
+=========================
+* fix import statement
+
 v0.3.16
 =========================
 * update dependencies
