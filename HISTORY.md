@@ -1,3 +1,8 @@
+v0.3.18
+=========================
+* Updated dependencies
+* Updated boilerplate files
+
 v0.3.17
 =========================
 * fix import statement
