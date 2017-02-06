@@ -1,6 +1,6 @@
 {
     "name": "px-box-design",
-    "version": "0.4.2",
+    "version": "0.4.3",
     "description": "Boxed off content styles for Predix UI",
     "private": false,
     "scripts": {
