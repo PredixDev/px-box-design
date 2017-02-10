@@ -41,9 +41,8 @@ $inuit-enable-box--huge : true;
 @import "../_objects.box.scss";
 
 .box {
-  border: 1px solid black;
+  border: 1px solid var(--px-box-demo-border-color, $gray4);
 }
-
 
 // Trumps
 @import "inuit-clearfix/_trumps.clearfix.scss";
