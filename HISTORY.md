@@ -1,3 +1,7 @@
+v1.0.0
+==================
+* Pick up redesigned dependencies.
+
 v0.4.4
 ==================
 * update demo page using px-demo classes
