@@ -33,7 +33,7 @@
   ],
   "dependencies": {
     "px-clearfix-design": "~0.1.9",
-    "px-defaults-design": "^1.0.2"
+    "px-defaults-design": "^2.0.0"
   },
   "devDependencies": {
     "px-starter-kit-design": "^0.7.0",
