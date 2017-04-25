@@ -33,7 +33,7 @@
     "LICENSE.md"
   ],
   "dependencies": {
-    "px-clearfix-design": "~0.1.9",
+    "px-clearfix-design": "^1.0.0",
     "px-defaults-design": "^2.0.0"
   },
   "devDependencies": {
