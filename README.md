@@ -1,6 +1,6 @@
-# Box
+# px-box-design
 
-The Box module simply boxes off content. This module is a fork of the [inuitcss Box module](https://github.com/inuitcss/objects.box).
+The px-box-design module simply boxes off content. This module is a fork of the [inuitcss Box module](https://github.com/inuitcss/objects.box).
 
 ## Dependencies
 
