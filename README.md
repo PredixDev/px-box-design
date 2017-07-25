@@ -1,10 +1,10 @@
 # px-box-design
 
-The px-box-design module simply boxes off content. This module is a fork of the [inuitcss Box module](https://github.com/inuitcss/objects.box).
+The pPredix UI Box module simply boxes off content. This module is a fork of the [inuitcss Box module](https://github.com/inuitcss/objects.box).
 
 ## Dependencies
 
-Predix UI's Box module depends on one other Px and one other inuitcss module:
+The `px-box-design` module depends on one other Px module and one inuitcss module:
 
 * [trumps.clearfix](https://github.com/inuitcss/trumps.clearfix)
 * [px-defaults-design](https://github.com/PredixDev/px-defaults-design)
