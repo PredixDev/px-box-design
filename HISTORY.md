@@ -1,3 +1,7 @@
+v1.0.4
+==================
+* move "note" higher on demo page
+
 v1.0.3
 ==================
 * Upgrade docs to use Polymer 2.x, bump px-demo and px-sass-doc dependencies
