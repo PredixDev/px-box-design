@@ -2,16 +2,16 @@
     {
         "description": "So we can apply the `.box` class to naturally-inline elements.\n",
         "commentRange": {
-            "start": 41,
-            "end": 41
+            "start": 57,
+            "end": 57
         },
         "context": {
             "type": "css",
-            "name": ".#",
-            "value": "$inuit-box-namespace",
+            "name": ".#{$inuit-box-namespace}box,\n%#{$inuit-box-namespace}box",
+            "value": "@extend %clearfix;\n  display: block; /* [1] */\n  padding: $inuit-base-spacing-unit;\n\n  > :last-child {\n      margin-bottom: 0;\n  }",
             "line": {
-                "start": 42,
-                "end": 93
+                "start": 59,
+                "end": 109
             }
         },
         "group": [
@@ -26,8 +26,8 @@
     {
         "description": "Produce CSS for boxes with no padding?\n",
         "commentRange": {
-            "start": 15,
-            "end": 17
+            "start": 31,
+            "end": 33
         },
         "context": {
             "type": "variable",
@@ -35,8 +35,8 @@
             "value": "false",
             "scope": "default",
             "line": {
-                "start": 18,
-                "end": 18
+                "start": 34,
+                "end": 34
             }
         },
         "group": [
@@ -52,8 +52,8 @@
     {
         "description": "Produce CSS for boxes with tiny padding?\n",
         "commentRange": {
-            "start": 20,
-            "end": 22
+            "start": 36,
+            "end": 38
         },
         "context": {
             "type": "variable",
@@ -61,8 +61,8 @@
             "value": "false",
             "scope": "default",
             "line": {
-                "start": 23,
-                "end": 23
+                "start": 39,
+                "end": 39
             }
         },
         "group": [
@@ -78,8 +78,8 @@
     {
         "description": "Produce CSS for boxes with small padding?\n",
         "commentRange": {
-            "start": 25,
-            "end": 27
+            "start": 41,
+            "end": 43
         },
         "context": {
             "type": "variable",
@@ -87,8 +87,8 @@
             "value": "false",
             "scope": "default",
             "line": {
-                "start": 28,
-                "end": 28
+                "start": 44,
+                "end": 44
             }
         },
         "group": [
@@ -104,8 +104,8 @@
     {
         "description": "Produce CSS for boxes with large padding?\n",
         "commentRange": {
-            "start": 30,
-            "end": 32
+            "start": 46,
+            "end": 48
         },
         "context": {
             "type": "variable",
@@ -113,8 +113,8 @@
             "value": "false",
             "scope": "default",
             "line": {
-                "start": 33,
-                "end": 33
+                "start": 49,
+                "end": 49
             }
         },
         "group": [
@@ -130,8 +130,8 @@
     {
         "description": "Produce CSS for boxes with huge padding?\n",
         "commentRange": {
-            "start": 35,
-            "end": 37
+            "start": 51,
+            "end": 53
         },
         "context": {
             "type": "variable",
@@ -139,8 +139,8 @@
             "value": "false",
             "scope": "default",
             "line": {
-                "start": 38,
-                "end": 38
+                "start": 54,
+                "end": 54
             }
         },
         "group": [
@@ -156,8 +156,8 @@
     {
         "description": "Prepend value for all generated classes\n",
         "commentRange": {
-            "start": 10,
-            "end": 12
+            "start": 26,
+            "end": 28
         },
         "context": {
             "type": "variable",
@@ -165,8 +165,8 @@
             "value": "$inuit-namespace",
             "scope": "default",
             "line": {
-                "start": 13,
-                "end": 13
+                "start": 29,
+                "end": 29
             }
         },
         "group": [
